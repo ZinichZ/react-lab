@@ -1,10 +1,5 @@
-// 3_5_2 Clear the input on sending a message
-/*
-  В настоящее время нажатие кнопки "Отправить" ничего не делает. Добавьте обработчик события для кнопки "Отправить", который будет:
-
-  - Показывать alert с электронной почтой получателя и сообщением.
-  - Очищать вход сообщения.
-*/
+// #3_5_2
+// Очистка ввода и показ уведомления при отправке сообщения
 
 import { useReducer } from 'react';
 import Chat from './Chat';
@@ -41,5 +36,5 @@ export type Contact = {
 const contacts = [
   {id: 0, name: 'Taylor', email: 'taylor@mail.com'},
   {id: 1, name: 'Alice', email: 'alice@mail.com'},
-  {id: 2, name: 'Bob', email: 'bob@mail.com'},
+  {id: 2, name: 'Bob', email: 'bob@mail.com'}
 ];
